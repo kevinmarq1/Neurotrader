@@ -1,0 +1,9 @@
+{
+  "date": "2025-09-09",
+  "model": "XGBoost",
+  "result": "1",
+  "probabilities": {
+    "class_0": 0.3718,
+    "class_1": 0.6282
+  }
+}
