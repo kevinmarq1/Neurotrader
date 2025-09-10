@@ -17,7 +17,9 @@ def get_sentiment_by_trend(trend):
 
 # 📰 Extrae una noticia real según el sentimiento, o usa neutral como respaldo
 def get_news_by_sentiment(sentiment_target, path="bitcoin_news_etiquetado.csv", sample_size=1000):
-    chunks = pd.read_csv(path, usecols=["article_text", "sentiment"], chunksize=10000)
+    url = "https://drive.google.com/uc?export=download&id=1x99HLCRhIFoP46s4k_7SW3DgMWqg58Rm"
+chunks = pd.read_csv(url, usecols=["article_text", "sentiment"], chunksize=10000)
+
     candidates = []
 
     for chunk in chunks:
