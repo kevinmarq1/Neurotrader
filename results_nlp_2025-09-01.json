@@ -1,0 +1,10 @@
+{
+  "date": "2025-09-01",
+  "model": "NLP",
+  "probabilities": {
+    "buy": 0.3894,
+    "hold": 0.5579
+  },
+  "noticia": "No news available.",
+  "sentiment": "negative"
+}

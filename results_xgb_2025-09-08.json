@@ -1,0 +1,13 @@
+{
+  "date": "2025-09-08",
+  "model": "XGB",
+  "probabilities": {
+    "buy": 0.5569,
+    "hold": 0.4431
+  },
+  "indicadores": {
+    "RSI": 78.14,
+    "MACD": 1.84,
+    "Volatility": 2.37
+  }
+}

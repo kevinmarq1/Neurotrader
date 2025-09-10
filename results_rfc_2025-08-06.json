@@ -1,0 +1,13 @@
+{
+  "date": "2025-08-06",
+  "model": "RFC",
+  "probabilities": {
+    "buy": 0.4239,
+    "hold": 0.5761
+  },
+  "indicadores": {
+    "RSI": 46.35,
+    "MACD": 1.11,
+    "Volatility": 0.77
+  }
+}
